@@ -15,7 +15,7 @@ The application is running at this url: https://sample-python-flask.scalingo.io/
 
 ## Deploy in One Click
 
-[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.osc-fr1.scalingo.com/deploy?source=https://github.com/Scalingo/sample-python-flask)
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.osc-fr1.scalingo.com/deploy?source=https://github.com/junitadore56/sample-python-flask)
 
 ## Running Locally
 
